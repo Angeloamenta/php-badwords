@@ -3,9 +3,10 @@ $string = " Ciao mi chiamo Angelo ho 30 anni mi chiamo Angelo ed ho 30 anni";
 $stringLen = strlen($string);
 $strUser = $_GET['str'];
 $posStr = strpos($string, $strUser);
-var_dump($strUser);
+// var_dump($strUser);
 $vowels = array(strtolower($strUser));
-$onlyconsonants = str_replace($vowels, "***", strtolower($string));
+$lowsrt = strtolower($string);
+$onlyconsonants = str_replace($vowels, "***", $lowsrt);
 ?>
 
 <!DOCTYPE html>
