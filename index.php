@@ -4,8 +4,8 @@ $stringLen = strlen($string);
 $strUser = $_GET['str'];
 $posStr = strpos($string, $strUser);
 var_dump($strUser);
-$vowels = array($strUser);
-$onlyconsonants = str_replace($vowels, "***", $string);
+$vowels = array(strtolower($strUser));
+$onlyconsonants = str_replace($vowels, "***", strtolower($string));
 ?>
 
 <!DOCTYPE html>
