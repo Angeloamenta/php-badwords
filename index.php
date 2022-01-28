@@ -19,16 +19,13 @@ $onlyconsonants = str_replace($vowels, "***", $lowsrt);
 </head>
 <body>
     <h2>Stringa</h2>
-    <p><?php echo$string?></p>
+    <p><?php echo $string?></p>
 
     <h2>Stringa censurata</h2>
-    <?php echo$onlyconsonants?></p>
+    <p> <?php echo $onlyconsonants?></p>
 
     <h2>Lunghezza paragrafo</h2>
-    <p> <?php echo$stringLen?></p>
-
-
-
+    <p> <?php echo $stringLen?></p>
 
 </body>
 </html>
@@ -36,5 +33,5 @@ $onlyconsonants = str_replace($vowels, "***", $lowsrt);
 <!-- Descrizione:
 Creare una variabile con un paragrafo di testo a vostra scelta. ok
 Stampare a schermo il paragrafo e la sua lunghezza. ok
-Una parola da censurare viene passata dall’utente tramite parametro GET.
-Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare. -->
+Una parola da censurare viene passata dall’utente tramite parametro GET. ok
+Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare. ok -->
